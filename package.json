@@ -5,8 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "build": "npx tsc",
-    "build:dev": "npx tsc -w",
+    "build": "tsc",
+    "build:dev": "tsc -w",
     "start": "node dist",
     "prepare": "husky install"
   },
