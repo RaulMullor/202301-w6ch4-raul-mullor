@@ -8,7 +8,6 @@ const logger = debug("cusetes:root");
 const port = process.env.PORT ?? 4001;
 
 app.get("/cusetes", (req, res) => {
-  logger("Hello World");
   res.status(200).json({ cusetes });
 });
 
